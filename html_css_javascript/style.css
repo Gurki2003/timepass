@@ -1,0 +1,33 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 100px;
+}
+.formdn{
+    font-size: 20px;
+    /* width:0% */
+}
+.formdn input{
+    width:30%;
+    padding: 12px 20px;
+    border: 3px solid blue;
+    margin:14 px;
+    border-radius: 4px;
+}
+.but{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.formerror{
+    color:red;
+}
+hr{
+    /* border: 100px; */
+    border: 3px solid black;
+}

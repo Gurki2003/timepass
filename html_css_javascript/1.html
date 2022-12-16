@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="1.css">
+    <script src="1.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Baloo+Bhai+2&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section id="Hi">
+     <h1 class="title">SMART INDIA HACKATHON</h1>
+     <div class="intro">
+            <h3 class="Heading">Let us understand what Smart India Hackathon is !</h3>
+            <p class="smart">Smart India Hackathon is an all over india event where the competitions across all the domains like machine learning, 
+                Web development, Computer Networks, Web semantics etc take place.
+                Students from different Colleges across India come and show off their skills, learn new things and win different prizes.
+                It is a great opportunity for many students to build their profile to maintain their standard in today's world.
+                So don't wait go and register !
+            </p>
+     </div>
+     <button class="button button4">
+     <a href="#good">Want to register ?</a>
+    </button>
+</section>
+    <section id="good">
+    <h2 class="Welcome">Welcome to the Registration Portal</h2>
+    <form name="myForm">  
+  
+            <label> Firstname </label>         
+            <input type="text" id="firstname" size="15"/> <br> <br>  
+            <p id="ferror"></p>
+            <label> Middlename: </label>     
+            <input type="text" id="middlename" size="15"/> <br> <br>  
+            <p id="merror"></p>
+            <label> Lastname: </label>         
+            <input type="text" id="lastname" size="15"/> <br> <br> 
+            <p id="lerror"></p> 
+            
+            <label>   
+            Course :  
+            </label>   
+            <select id="mySelect">  
+            <option >Course</option>  
+            <option >CS</option>  
+            <option>EC</option>   
+            <option >EEE</option>  
+            <option >MECH</option>  
+            <option >CIVIL</option>  
+            <option >BIO TECH</option>  
+            </select>
+            <button onclick="add_in_list();"></button> 
+              
+            <br>  
+            <br>  
+            <label>   
+            Gender :  
+            </label><br>  
+
+            <input type="radio" id="gender1"/> Male <br>  
+            <input type="radio" value="female" id="gender2"/> Female <br>  
+            <input type="radio" value="other" id="gender3"/> Other
+            <p id="gerror"></p>
+            <br>
+            <br>
+            <label>   
+            Phone :  
+            </label>  
+            <input type="number" id="number" value="+91" size="2"/>
+            <p id="number1"></p>
+            <br>
+            <br>
+            Address  
+            <br>  
+            <textarea cols="80" rows="5" value="address">  
+            </textarea>  
+            <br><br>  
+            Email:  
+            <input type="email" id="email" name="email" required/> <br>
+            <p id="emailid"></p>
+            <br><br>
+            Password:  
+            <input type="password" id="pass" name="pass"> <br>   
+            <p id="password"></p>
+            <br><br>
+            Re-type password:  
+            <input type="Password" id="repass" name="repass"> <br> <br>  
+            <p id="incorrect"></p> 
+            </form>  
+<button type="submit" id="btn" onclick="shreyas();">Register</button>
+<p id="users"></p>
+</section>
+</body>
+</html>

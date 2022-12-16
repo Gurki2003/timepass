@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="hello">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <hr>
+    <h1>Validation Form</h1>
+    <hr>
+    <div>
+        <h2>Welcome to the best form on the planet</h2>
+    </div>
+    <br>
+    <form class="formdn" action="">
+        <div>
+            User Name: <input type="text" id="fname"><p class = "U_error"></p>
+        </div>
+        <br>
+        <div>
+            Password : <input type="text" id="fpass"><p class = "p_error"></p>
+        </div>
+        <!-- <br>
+        <div>
+            Phone: <input type="text" id="fnum"><span class="formerror"> </span>
+        </div>
+        <br>
+        <div>
+            Password: <input type="text" id="fpass"><span class="formerror"> </span>
+        </div>
+        <br>
+        <div>
+            Confirm Password: <input type="text" id="fpassc"><span class="formerror"> </span>
+        </div> -->
+        <br>
+        <input class = "but" type="submit" value="SUBMIT" onclick="validateForm(event);">
+    </form>
+
+    <script src="index.js">
+
+    </script>   
+</body>
+</html>
